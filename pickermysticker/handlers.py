@@ -45,6 +45,7 @@ class SendStickerHandler(tornado.web.RequestHandler):
 
 
         body = {
+            'response_type': 'in_channel',
             'attachments': [
                 {
                     "text": "Pack {pack_id} sticker {sticker_id}".format(pack_id=pack_id, sticker_id=sticker_id),
