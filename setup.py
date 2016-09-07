@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 
 setup(
-    name='pick-my-stick',
+    name='picker-my-sticker',
     version='0.0.1',
     description='Stickers for Slack',
     long_description='S t i c k e r s',
